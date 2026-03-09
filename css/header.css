@@ -1,3 +1,4 @@
+
 body{
    font-family: Arial;
    text-align: center;
@@ -51,3 +52,4 @@ body{
 .card.virado .back{
    transform: rotateY(0);
 }
+

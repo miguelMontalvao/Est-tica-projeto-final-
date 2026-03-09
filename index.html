@@ -4,61 +4,66 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Estética</title>
-    <link rel="stylesheet" href="main.css">
-    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/branding.css">
     
 </head>
 <body>
     <header>
        
     </header>
+    <section id="branding">
+        <img src="imagens/selo-naotestado-256-blue.png" alt="Selo de não testado em animais">
+        <div class="cards_branding">
+            <h2 class="texto_branding titulo_branding">Beleza com propósito</h2>
+            <p class="texto_branding">Elevamos a sua autoestima através de rituais de cuidado que respeitam a vida. Na nossa estética, a excelência dos resultados caminha lado a lado com a ética: somos 100% <strong>cruelty-free</strong>. Utilizamos exclusivamente produtos que nunca foram testados em animais, garantindo uma beleza radiante, consciente e livre de crueldade. ✨</p>
+        </div>
 
-    <select name="teste" id=""></select>
 
-
-
-
-<h1>Tratamentos da Clínica</h1>
+        <h1>Flash Cards - Estética</h1>
 
 <div class="container">
 
-<!-- CARD 1 -->
-<div class="card" onclick="virarCard(this)">
-    <div class="front">
-        Limpeza de Pele
-        <img src="css/Limpeza-de-pele-1.jpg"
+    <!-- Flash Card 1 -->
+    <div class="card" onclick="virarCard(this)">
+        <div class="card-inner">
+
+            <div class="card-front">
+               <p>O que é limpeza de pele?</p>
+            </div>
+
+            <div class="card-back">
+                <p>Procedimento estético que remove impurezas e células mortas da pele.</p>
+            </div>
+
+        </div>
     </div>
 
-    <div class="back">
-        Remove cravos, impurezas e células mortas.
-    </div>
-</div>
+    <!-- Flash Card 2 -->
+    <div class="card" onclick="virarCard(this)">
+        <div class="card-inner">
 
-<!-- CARD 2 -->
-<div class="card" onclick="virarCard(this)">
-    <div class="front">
-        Botox
-        <img src="css/botox.avif"
-    </div>
+            <div class="card-front">
+               <p>Para que serve o peeling?</p> 
+            </div>
 
-    <div class="back">
-        Suaviza rugas e linhas de expressão.
-    </div>
-</div>
+            <div class="card-back">
+               <p>Remove camadas da pele para estimular renovação celular.</p> 
+            </div>
 
-<!-- CARD 3 -->
-<div class="card" onclick="virarCard(this)">
-    <div class="front">
-        Depilação a Laser
-        <img src="css/depilacao-a-laser-em-fundo-azul-solido_955712-8340.avif"
-    </div>
+        
 
-    <div class="back">
-        Redução permanente dos pelos.
-    </div>
-</div>
 
-</div>
+
+
+    </section>
+
+
+
+
+
+
 
     <script src="main.js"></script>
 </body>
