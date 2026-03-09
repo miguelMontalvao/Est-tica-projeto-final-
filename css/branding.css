@@ -1,22 +1,31 @@
 #branding{
     display: flex;
     align-items: center;
-    gap: 20px;
+    
 }
 #branding img {
-    max-width: 200px;
+    max-width: 300px;
     height: auto;
 }
 .texto_branding{
     color: black;
     text-align: center;
+    font-size: x-large;
 }
 .titulo_branding{
     margin-top: 20px;
     margin-bottom: 25px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: xx-large;
 }
-
+.cards_branding{
+    background-color: #Fdffb6;
+    padding: 20px;
+    margin: 15px;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 5px 4px 10px;
+}
 
 
 
