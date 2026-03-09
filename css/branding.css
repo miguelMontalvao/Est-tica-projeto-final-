@@ -1,0 +1,21 @@
+*{
+    padding: 0px;
+    margin: 0px;
+
+}
+#branding{
+    display: flex;
+    justify-content: center;
+}
+
+.cards_branding{
+    
+}
+
+
+.img_branding{
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    margin: 20px;
+}
