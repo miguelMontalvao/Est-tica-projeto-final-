@@ -1,7 +1,6 @@
 .branding{
     display: flex;
     align-items: center;
-    background-color: #d7fa99;
     border-radius: 15px; 
     margin-bottom: 1px; 
 }
@@ -24,17 +23,10 @@
     font-size: x-large;
 }
 .cards_branding{
-    background-color: #d7fa99;
+    background-color: #F5EDE3;
     padding: 20px;
     margin: 15px;
     text-align: center;
-    border-radius: 15px;
-}
-#card_pele{
-    background-color: #D4A373;
-}
-#section{
-    background-color: #D4A373;
     border-radius: 15px;
 }
 
