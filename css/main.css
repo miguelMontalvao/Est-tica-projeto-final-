@@ -23,20 +23,26 @@ body{
     /* MENU */
     
     .menu{
-    display:flex;
-    gap:25px;
-    list-style:none;
-    }
-    
-    .menu a{
-    text-decoration:none;
-    color:#7B5E45;
-    font-weight:500;
-    }
-    
-    .menu a:hover{
-    color:#B89A7A;
-    }
+        display:flex;
+        list-style:none;
+        gap:25px;
+        }
+        
+        .menu a{
+        text-decoration:none;
+        color:#6B4F3A;
+        font-size:16px;
+        padding:6px 10px;
+        
+        /* animação suave */
+        transition:all 0.3s ease;
+        }
+        
+        .menu a:hover{
+        font-size:19px;
+        padding:10px 14px;
+        }
+
     
     /* BOTÕES */
     
@@ -58,16 +64,24 @@ body{
     
     /* BOTÃO AGENDAR */
     
-    .btn-agendar{
-    background:#D8BFA3;
-    border:none;
-    padding:10px 20px;
-    border-radius:20px;
-    color:white;
-    font-weight:600;
-    cursor:pointer;
-    }
-    
-    .btn-agendar:hover{
-    background:#C7A888;
-    }
+
+
+    .btn{
+        padding:10px 20px;
+        background:#D8BFA3;
+        border:none;
+        border-radius:20px;
+        color:white;
+        cursor:pointer;
+        
+        /* animação */
+        transition: all 0.3s ease;
+        }
+        
+        .btn:hover{
+        padding:14px 28px;
+        }
+
+        
+            
+            
