@@ -29,7 +29,15 @@
     text-align: center;
     border-radius: 15px;
 }
-
+#coelho{
+    width: 100px;
+}
+#foto_bella{
+    width: 400px;
+    height: 200px;
+    border-radius: 200px;
+    ;
+}
 
 
 
