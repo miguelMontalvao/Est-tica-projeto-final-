@@ -87,6 +87,21 @@ body{
         padding:14px 28px;
         }
 
-        
+        .search{
+            border:none;
+            background:none;
+            cursor:pointer;
+            
+            font-size:18px;
+            padding:6px;
+            
+            /* animação suave */
+            transition:all 0.3s ease;
+            }
+            
+            .search:hover{
+            font-size:22px;
+            padding:10px;
+            }
             
             
