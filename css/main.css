@@ -7,7 +7,7 @@ body{
     display:flex;
     justify-content:space-between;
     align-items:center;
-    padding:15px 40px;
+    padding:15px 280px;
     background:#F5EDE3;
     }
     
@@ -20,6 +20,11 @@ body{
     letter-spacing:3px;
     }
     
+    .logo img{
+        width:200px;
+        height:auto;
+        }
+
     /* MENU */
     
     .menu{
