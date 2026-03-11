@@ -9,7 +9,7 @@ body{
     align-items:center;
     padding:3px 180px;
     background:#F5EDE3;
-    height:130px;
+    height:80px;
     flex-wrap: wrap;
     }
     
@@ -23,12 +23,16 @@ body{
     }
     
     .logo img{
-        width:200px;
+        width:180px;
         height:auto;
         transition:0.3s;
         transform:scale(1.0);
         }
         
+        .logo{
+            display:flex;
+            align-items:center;
+            }
 
     /* MENU */
     
@@ -41,7 +45,7 @@ body{
         .menu a{
         text-decoration:none;
         color:#6B4F3A;
-        font-size:16px;
+        font-size:18px;
         padding:6px 10px;
         
         /* animação suave */
