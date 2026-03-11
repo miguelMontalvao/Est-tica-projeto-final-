@@ -6,8 +6,10 @@
 }
 
 .img_tratamentos img{
-   width: 1200px;
-   height: 800px;
-   border-radius: 50px
-   ;
+   width: 600px;
+   height: 600px;
+   border-radius: 100%;
+   box-shadow: 5px 4px 10px;
+   object-fit: cover;
+   flex-direction: column
 }
