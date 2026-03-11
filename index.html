@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Estética</title>
     <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/branding.css">
     <link rel="stylesheet" href="css/Frodo.css">
     
@@ -40,28 +40,49 @@
           </nav>
     </header>
     <section class="branding">
-        <img src="imagens/selo n testado em animais.jpg" id="coelho" alt="Selo de não testado em animais">
+        <img src="imagens/selo_n_testado_em_animais.jpg" id="img_coelho" alt="Selo de não testado em animais">
         <div class="cards_branding coelho">
             <h2 class="texto_branding titulo_branding">Beleza com propósito</h2>
             <p class="texto_branding ">Elevamos a sua autoestima através de rituais de cuidado que respeitam a vida. Na nossa estética, a excelência dos resultados caminha lado a lado com a ética: somos 100% <strong>cruelty-free</strong>. Utilizamos exclusivamente produtos que nunca foram testados em animais, garantindo uma beleza radiante, consciente e livre de crueldade. ✨</p>
         </div>
     </section>
-    <section class="branding" id="section">
+    <section class="branding">
         <img src="imagens/beleza-feliz-e-uma-mulher-rindo-por-brilho-de-pele-em-estúdio-fundo-marrom-face-estética-feminina-do-modelo-feminino-satisfeita-272360483.webp" alt="Mulher sorrindo com a pele cuidada">
         
         <div class="cards_branding" id="card_pele">
-            <h2 class="texto_branding titulo_branding">BellaDerme: A ciência do cuidado, a arte da sua singularidade.</h2>
+            <h2 class="texto_branding titulo_branding"> A ciência do cuidado, a arte da sua singularidade.</h2>
             <p class="texto_branding">Na BellaDerme, não acreditamos em protocolos genéricos; entendemos que sua beleza é um reflexo único da sua saúde e história. Nosso branding celebra a individualidade, unindo diagnósticos precisos a tratamentos personalizados que respeitam cada traço e necessidade do seu corpo. Aqui, você não é apenas um procedimento, mas uma beleza singular cultivada com exclusividade e acolhimento.</p>
         </div>
     </section>
-    <section class="branding" id="section">
+    <section class="branding">
         <img id="foto_bella" src="imagens/Bella derme.jpg">
         
         <div class="cards_branding" id="card_pele">
-            <h2 class="texto_branding titulo_branding">BellaDerme: Nossa história.</h2>
-            <p class="texto_branding">Na BellaDerme, não acreditamos em protocolos genéricos; entendemos que sua beleza é um reflexo único da sua saúde e história. Nosso branding celebra a individualidade, unindo diagnósticos precisos a tratamentos personalizados que respeitam cada traço e necessidade do seu corpo. Aqui, você não é apenas um procedimento, mas uma beleza singular cultivada com exclusividade e acolhimento.</p>
+            <h2 class="texto_branding titulo_branding"> Nossa história.</h2>
+            <p class="texto_branding">Nascida no subúrbio do Rio, Bella começou cuidando de animais resgatados, desenvolvendo uma sensibilidade rara para entender as particularidades de cada ser vivo. Essa visão de "cuidado único" foi o alicerce para ela ingressar no mercado de estética, onde percebeu que o atendimento de massa ignorava a singularidade da pele carioca. Com resiliência, ela fundou a BellaDerme, transformando seu olhar clínico em uma metodologia de alta performance que trata cada cliente de forma personalizada. A empresa escalou rapidamente, tornando-se uma referência no Rio por unir tecnologia de ponta a um DNA estritamente cruelty-free. Hoje, Bella lidera um império da beleza que prova ser possível alcançar o topo sem abrir mão da ética. Sua marca é o reflexo de sua trajetória: sofisticada, humana e profundamente respeitosa a todas as formas de vida.</p>
         </div>
     </section>
+
+
+    <h1 style="text-align: center; margin-top: 40px;">Clínica De Estética</h1>
+
+    <section class="tratamentos">
+        <div class="img_tratamentos">
+            <img id="harmonizacao" src="imagens/9_harmonizacao-facial.jpg">
+            <p class="texto_tratamento">bla bla bla</p>
+
+            <img id="limpeza_de_pele" src="imagens/Limpeza-de-pele-1.jpg">
+            <p class="texto_tratamento">bla bla bla</p>
+
+            <img id="celulite" src="imagens/tratamento para celulte.webp">
+            <p class="texto_tratamento">bla bla bla</p>
+
+            <img id="botox" src="imagens/botox.avif">
+            <p class="texto_tratamento">bla bla bla</p>
+        </div>
+
+    </section>
+
 
 
 
@@ -97,23 +118,70 @@
             </div>
 
          
+
+<section class="container_formularios">
+    
+    <div class="card_form">
+        <h2>Cadastro de Cliente</h2>
+        <form id="meuFormulario">
+            <div class="campo">
+                <label for="nome">Nome do Cliente:</label>
+                <input type="text" id="nome" placeholder="Digite o nome completo" required>
+            </div>
+            
+            <div class="campo">
+                <label for="telefone">Telefone:</label>
+                <input type="tel" id="telefone" placeholder="(21) 99999-9999" required>
+            </div>
+            
+            <button type="submit" class="btn-enviar">Salvar Cliente</button>
+        </form>
+        <ul id="listaClientes"></ul>
+    </div>
+
+    <div class="card_form">
+        <h2>Agendamento de Consultas</h2>
+        <form id="formAgendamento">
+            <div class="campo">
+                <label for="data">Data:</label>
+                <input type="date" id="data" required>
+            </div>
+
+            <div class="campo">
+                <label for="horario">Horário:</label>
+                <input type="time" id="horario" required>
+            </div>
+
+            <div class="campo">
+                <label for="servico">Serviço:</label>
+                <select id="servico" required>
+                    <option value="">Selecione...</option>
+                    <option value="Dermatologia">Dermatologia</option>
+                    <option value="Estética Facial">Estética Facial</option>
+                    <option value="Estética Corporal">Estética Corporal</option>
+                    <option value="Tricologia">Tricologia</option>
+                </select>
+            </div>
+
+            <button type="submit" class="btn-agendar">Agendar Agora</button>
+        </form>
+    </div>
+
+</section>
+
+
+<footer>
+        <h2 class="titulo_branding footer" id="contatos">Contatos:</h2>
+        <nav id="nav_footer">
+            <a href="https://wa.me/5521982244149" target="_blank"><img src="Imagens/whatsapp.png" class="img_footer" alt=""></a>
+            <a href="mailto: miguel.m.montalvao@gmail.com" target="_blank"><img src="Imagens/gmail.png" class="img_footer" alt=""></a>
+        </nav>
+        <p class="texto_branding">Horário de Funcionamento: Terça a sábado das 8:00h as 17:00h.</p>
+        <p class="texto_branding">&copy;Todos os direitos reservados.</p>
+
         
-        </section>
+</footer>
 
-
-        
-
-
-
-
-   
-
-
-
-
-
-
-
-    <script src="main.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>
