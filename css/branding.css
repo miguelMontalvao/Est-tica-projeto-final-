@@ -32,9 +32,9 @@
 
 #foto_bella{
     width: 400px;
-    height: 200px;
-    border-radius: 200px;
-    
+    height: 300px;
+    border-radius: 100%;
+    object-fit: cover;
 }
 
 #img_coelho{
