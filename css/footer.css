@@ -1,3 +1,20 @@
+footer{
+    background-color: whitesmoke;
+    text-align: center;
+}
+#nav_footer{
+    display: flex;
+    flex-wrap: wrap;  
+    justify-content: center;  
+}
 
+.img_footer{
+    height: 40px;
+    margin: 20px;
+}
+.footer{
+    margin-bottom: 1px;
+    font-family: poppins;
+}
 
 
