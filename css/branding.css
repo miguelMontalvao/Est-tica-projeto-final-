@@ -46,6 +46,35 @@
     justify-content: center;
 
 }
+.card_form {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.campo {
+    margin-bottom: 15px; /* Isso descola um campo do outro */
+}
+
+.campo label {
+    display: block; /* Faz o label ficar em cima do input */
+    margin-bottom: 5px;
+}
+
+.campo input, .campo select {
+    width: 100%; /* Faz o input ocupar toda a largura disponível */
+    padding: 8px;
+    box-sizing: border-box; /* Evita que o padding aumente o tamanho do input */
+}
+
+button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px; /* Descola o botão do campo de cima */
+    cursor: pointer;
+}
 
 .card_form {
     max-width: 400px;
