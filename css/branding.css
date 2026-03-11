@@ -31,6 +31,7 @@
 }
 #coelho{
     width: 100px;
+    cursor: pointer;
 }
 #foto_bella{
     width: 400px;
@@ -39,9 +40,11 @@
     
 }
 
+
 .coelho{
     opacity: 0;
     transition: opacity 1.5s ease-in-out;
+    
 }
 .visivel{
     opacity: 1;
