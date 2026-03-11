@@ -86,6 +86,13 @@ form.addEventListener('submit', (e) => {
     banco.push(novoAgendamento);
     localStorage.setItem('meus_agendamentos', JSON.stringify(banco));
 
+    form.reset(); // Limpa o formulário
+    renderizarTabela(); // Atualiza a planilha visual
+    
+    // Exibe a mensagem de sucesso
+    alert("Agendamento concluído. Esperamos por você! 😊");
+    // -------------------------
+
     form.reset();
     renderizarTabela();
 });
