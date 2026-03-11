@@ -41,6 +41,17 @@
     width: 100px;
 }
 
+.formulario_agenda{
+    display: flex;
+    justify-content: center;
+
+}
+
+
+form { display: flex; flex-direction: column; width: 300px; gap: 10px; margin-bottom: 30px; }
+table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+th, td { padding: 10px; text-align: left; border: 1px solid #ddd; }
+th { background-color: #f4f4f4; }
 
 
 
