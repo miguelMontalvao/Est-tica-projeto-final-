@@ -10,6 +10,7 @@ body{
     padding:15px 280px;
     background:#F5EDE3;
     height:80px;
+    flex-wrap: wrap;
     }
     
     /* LOGO */

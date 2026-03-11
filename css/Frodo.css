@@ -29,9 +29,11 @@ body{
    display: flex;
    flex-direction: column;
    align-items: center;
-   gap: 200px;
+   gap: 20px;
 }
-
+.tratamentos{
+   font-size: large;
+}
 
 .front{
    background: #d48bb5;
