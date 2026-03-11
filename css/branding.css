@@ -29,9 +29,7 @@
     text-align: center;
     border-radius: 15px;
 }
-#coelho{
-    width: 100px;
-}
+
 #foto_bella{
     width: 400px;
     height: 200px;
@@ -39,13 +37,11 @@
     
 }
 
-.coelho{
-    opacity: 0;
-    transition: opacity 1.5s ease-in-out;
+#img_coelho{
+    width: 100px;
 }
-.visivel{
-    opacity: 1;
-}
+
+
 
 
 
