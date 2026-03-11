@@ -7,8 +7,9 @@ body{
     display:flex;
     justify-content:space-between;
     align-items:center;
-    padding:15px 40px;
+    padding:15px 280px;
     background:#F5EDE3;
+    height:80px;
     }
     
     /* LOGO */
@@ -20,6 +21,14 @@ body{
     letter-spacing:3px;
     }
     
+    .logo img{
+        width:200px;
+        height:auto;
+        transition:0.3s;
+        transform:scale(1.0);
+        }
+        
+
     /* MENU */
     
     .menu{
@@ -82,6 +91,22 @@ body{
         padding:14px 28px;
         }
 
-        
+        .search{
+            border:none;
+            background:none;
+            cursor:pointer;
+            
+            font-size:18px;
+            padding:6px;
+            
+            /* animação suave */
+            transition:all 0.3s ease;
+            }
+            
+            .search:hover{
+            font-size:22px;
+            padding:10px;
+            }
+
             
             
