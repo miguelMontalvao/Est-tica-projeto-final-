@@ -9,6 +9,7 @@ body{
     align-items:center;
     padding:15px 280px;
     background:#F5EDE3;
+    height:80px;
     }
     
     /* LOGO */
@@ -23,7 +24,10 @@ body{
     .logo img{
         width:200px;
         height:auto;
+        transition:0.3s;
+        transform:scale(1.0);
         }
+        
 
     /* MENU */
     
@@ -103,5 +107,6 @@ body{
             font-size:22px;
             padding:10px;
             }
+
             
             
