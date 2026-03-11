@@ -4,7 +4,7 @@ body{
    background-color: #f5f5f5;
 }
 
-.container{
+#container{
    display: flex;
    justify-content: center;
    gap: 20px;
@@ -38,4 +38,9 @@ body{
    background: #d48bb5;
 }
 
-
+.renanfrodo{
+   padding: 15px;
+   width: 400px;
+   height: 500px;
+   border-radius: 50%;
+}
